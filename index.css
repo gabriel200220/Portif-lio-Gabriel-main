@@ -450,3 +450,88 @@ span {
 }
 
 
+@media (max-width: 768px) {
+    html {
+        font-size: 56.25%; /* Reduz o tamanho da fonte para telas menores */
+    }
+
+    .header {
+        padding: 1rem 5%; /* Menos padding para cabeçalho */
+    }
+
+    .logo {
+        font-size: 2rem; /* Reduz o tamanho do logo */
+    }
+
+    .navbar a {
+        font-size: 1.5rem; /* Reduz o tamanho dos links */
+        margin-right: 2rem; /* Menos espaço entre os links */
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem; /* Tamanho menor para h3 */
+    }
+
+    .home-content h1 {
+        font-size: 4rem; /* Tamanho menor para h1 */
+    }
+
+    .home-content p {
+        font-size: 1.4rem; /* Tamanho menor para parágrafos */
+    }
+
+    .home-img img {
+        max-width: 100%; /* Imagem não ultrapassa a largura da tela */
+        height: auto; /* Mantém a proporção */
+    }
+
+    .about-img img {
+        width: 100%; /* Faz com que a imagem ocupe 100% da largura */
+    }
+
+    .services-container .services-box {
+        flex: 1 1 100%; /* Coloca as caixas de serviços em uma coluna */
+        margin: 1rem 0; /* Margem vertical entre os boxes */
+    }
+
+    .contact .heading {
+        font-size: 1.8rem; /* Tamanho menor para o cabeçalho de contato */
+    }
+
+    .social-link {
+        font-size: 1.5rem; /* Tamanho menor para os links sociais */
+    }
+}
+
+/* Ajustes para telas muito pequenas (ex: smartphones) */
+@media (max-width: 480px) {
+    .header {
+        padding: 1rem 3%; /* Menos padding para cabeçalho em telas pequenas */
+    }
+
+    .home-content h3 {
+        font-size: 2rem; /* Tamanho ainda menor para h3 */
+    }
+
+    .home-content h1 {
+        font-size: 3.5rem; /* Tamanho ainda menor para h1 */
+    }
+
+    .home-content p {
+        font-size: 1.2rem; /* Tamanho ainda menor para parágrafos */
+    }
+
+    .services-box h3 {
+        font-size: 2rem; /* Tamanho menor para títulos de serviços */
+    }
+
+    .services-box p {
+        font-size: 1.4rem; /* Tamanho menor para descrições de serviços */
+    }
+
+    .btn {
+        padding: 1rem 2rem; /* Botões menores */
+        font-size: 1.4rem; /* Fonte dos botões menor */
+    }
+}
+
