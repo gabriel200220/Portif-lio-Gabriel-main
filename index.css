@@ -195,6 +195,27 @@ section {
     pointer-events: none;
 }
 
+.profession-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Remover o efeito roxo em telas pequenas */
+@media (max-width: 768px) {
+    .profession-container {
+        display: none; /* Esconde o efeito roxo no celular */
+    }
+
+    .home-content {
+        z-index: 1; /* Garante que o texto fique por cima */
+    }
+}
+
 .home .profession-container .profession-box {
     position: absolute;
     top: 0;
